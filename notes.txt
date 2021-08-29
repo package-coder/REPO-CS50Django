@@ -1,0 +1,4 @@
+django-admin startproject [project name] //creates a project
+code . //open the code editor with the current directory
+python manage.py runserver //to run the project
+python manage.py startapp [app name] //creates a app inside the django project

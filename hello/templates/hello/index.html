@@ -1,0 +1,44 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Christian Paul Pujado</title>
+    <link rel="stylesheet" href="{% static 'hello/style.css' %}">
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="pages/schedule.html">Class Schedule</a>
+        <a href="pages/artworks.html">My Artworks</a>
+        <a href="pages/interest.html">My Interest</a>
+        <a href="pages/other.html">Other Contacts</a>
+        <hr>
+    </header>
+    <main>
+        <h1>Profile</h1>
+        <img src="{% static 'hello/me.png' %}" alt="christian paul pujado's photo">
+        <br>
+        <section>
+            <h2>Personal Information</h2>
+            <p><b>Name:</b> Chrisitan Paul Pujado</p>
+            <p><b>Student Number:</b> 19-43137</p>
+            <p><b>Address:</b> Zone 2 Lerma, Naga City, Camarines Sur</p>
+            <p><b>School:</b> University of Nueva Caceres</p>
+            <p><b>Age:</b> 20</p>
+            <p><b>Contact:</b> 09XX-XXX-XXXX</p>
+            <p><b>Birthdate:</b> Feb-16-2001</p>
+            <p><b>Relationship Status:</b> looking for the one who can do the front-end to my back-end ^_^</p>
+        </section>
+    </main>
+    <footer>
+        <hr>
+        <h2>Want my help?</h2>
+        <a href="mailto:christianpaul.pujado@unc.edu.ph">@Keep in touch with me!</a>
+        <input type="text">
+        <button>submit</button>
+    </footer>
+</body>
+</html>
